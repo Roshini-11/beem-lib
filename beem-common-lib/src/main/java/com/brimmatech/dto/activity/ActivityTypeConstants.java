@@ -1,0 +1,86 @@
+package com.brimmatech.dto.activity;
+
+import lombok.Getter;
+
+@SuppressWarnings("PMD.SingularField")
+@Getter
+public final class ActivityTypeConstants {
+    public static final String MANUAL_TASK_TYPE = "MANUAL_TASK";
+    public static final String MANUAL_TASK_DESC = "Manual Task";
+    public static final String TASKS_TYPE = "TASKS";
+    public static final String TASKS_DESC = "Tasks";
+    public static final String NOTES_TYPE = "NOTES";
+    public static final String NOTES_DESC = "Notes";
+    public static final String AUTO_TASK_TYPE = "AUTO_TASK";
+    public static final String AUTO_TASK_DESC = "Auto Task";
+    public static final String LEAD_TYPE = "LEAD";
+    public static final String LEAD_DESC = "Lead";
+    public static final String SMS_TYPE = "SMS";
+    public static final String SMS_DESC = "TEXT";
+    public static final String CALL_TYPE = "CALL";
+    public static final String CALL_DESC = "call";
+    public static final String EMAIL_TYPE = "EMAIL";
+    public static final String EMAIL_DESC = "Email";
+    public static final String QUOTE_TYPE = "QUOTE";
+    public static final String QUOTE_DESC = "Quote";
+    public static final String AUTO_SMS_TYPE = "AUTO_SMS";
+    public static final String AUTO_SMS_DESC = "Auto Sms";
+    public static final String AUTO_EMAIL_TYPE = "AUTO_EMAIL";
+    public static final String AUTO_EMAIL_DESC = "Auto EMAIL";
+    public static final String AUTO_INTRO_CALL_FAILED_TYPE = "AUTO_CALL_FAILED";
+    public static final String AUTO_INTRO_CALL_FAILED_DESC = "Auto Call Failed";
+    public static final String AUTO_INTRO_CALL_DECLINED_TYPE = "AUTO_CALL_DECLINED";
+    public static final String AUTO_INTRO_CALL_DECLINED_DESC = "Auto Call Declined";
+    public static final String AUTO_INTRO_CALL_COMPLETED_TYPE = "AUTO_CALL_COMPLETED";
+    public static final String AUTO_INTRO_CALL_COMPLETED_DESC = "Auto Call Completed";
+    public static final String AUTO_INTRO_CALL_MISSED_TYPE = "AUTO_CALL_MISSED";
+    public static final String AUTO_INTRO_CALL_MISSED_DESC = "Auto Call Missed";
+    public static final String MANUAL_CALL_FAILED_TYPE = "MANUAL_CALL_FAILED";
+    public static final String MANUAL_CALL_FAILED_DESC = "MANUAL Call Failed";
+    public static final String MANUAL_CALL_DECLINED_TYPE = "MANUAL_CALL_DECLINED";
+    public static final String MANUAL_CALL_DECLINED_DESC = "Manual Call Declined";
+    public static final String MANUAL_CALL_COMPLETED_TYPE = "MANUAL_CALL_COMPLETED";
+    public static final String MANUAL_CALL_COMPLETED_DESC = "MANUAL Call Completed";
+    public static final String MANUAL_CALL_MISSED_TYPE = "MANUAL_CALL_MISSED";
+    public static final String MANUAL_CALL_MISSED_DESC = "Manual Call Missed";
+    public static final String MESSAGE_ATTEMPTS_TYPE = "MESSAGE_ATTEMPTS";
+    public static final String MESSAGE_ATTEMPTS_DESC = "Message Attempts";
+    public static final String MANUAL_EMAIL_TYPE = "MANUAL_EMAIL";
+    public static final String MANUAL_EMAIL_FAILED_TYPE = "MANUAL_EMAIL_FAILED";
+    public static final String MANUAL_EMAIL_DESC = "Manual Email";
+    public static final String LEAD_INTRO_EMAIL_DESC = "Lead Intro Email";
+    public static final String LO_INTRO_EMAIL_DESC = "LO Intro Email";
+    public static final String LEAD_INTRO_FAILURE_EMAIL_DESC = "Lead Intro Failure Email";
+    public static final String LO_INTRO_FAILURE_EMAIL_DESC = "LO Intro Failure Email";
+    public static final String INVITE_EMAIL_TO_LEAD_TYPE = "INVITE_EMAIL";
+    public static final String INVITE_EMAIL_TO_LEAD_DESC = "Invite to Apply Email";
+    public static final String INVITE_SMS_TO_LEAD_TYPE = "INVITE_SMS";
+    public static final String INVITE_SMS_TO_LEAD_DESC = "Invite to Apply Text";
+    public static final String EMAIL_ATTEMPTS_TYPE = "EMAIL_ATTEMPTS";
+    public static final String ATTEMPT_EMAIL_ONE_DESC = "Email-Attempt 1";
+    public static final String ATTEMPT_EMAIL_TWO_DESC = "Email-Attempt 2";
+    public static final String ATTEMPT_EMAIL_THREE_DESC = "Email-Attempt 3";
+    public static final String ATTEMPT_EMAIL_FOUR_DESC = "Email-Attempt 4";
+    public static final String NOTIFY_TASK_DUE = "Task-Notification";
+    public static final String DAILY_TASK_REMINDER_AUTO_EMAIL = "DAILY TASK REMINDER AUTO EMAIL";
+    public static final String LEAD_INVALID_PHONE_EMAIL = "LEAD_PHONE_EMAIL_INVALID";
+    public static final String LO_INVALID_PHONE = "LO_PHONE_INVALID";
+    public static final String LO_INVALID_EMAIL = "LO_EMAIL_INVALID";
+    public static final String LEAD_REASSIGN = "LEAD_REASSIGNED";
+    public static final String LEAD_REASSIGN_DESC = "Lead Reassigned";
+    public static final String LEAD_INTRO_EMAIL_OPENED = "Lead Intro Email Opened";
+    public static final String QUOTE_OPENED = "Quote Opened";
+    public static final String MANUAL_CALL_ATTEMPTED_TYPE = "MANUAL_CALL_ATTEMPTED";
+    public static final String MANUAL_CALL_ATTEMPTED_DESC = "Manual Call Attempted";
+    public static final String AUTO_INTRO_CALL_ATTEMPTED_TYPE = "AUTO_CALL_ATTEMPTED";
+    public static final String AUTO_INTRO_CALL_ATTEMPTED_DESC = "Auto Call Attempted";
+    public static final String CAMPAIGN_TYPE = "CAMPAIGN";
+    public static final String NOTES_EMAIL_TO_AGENT_DESC = "Note Email To Agent";
+    public static final String UPDATED_SIGNATURE_EMAIL = "UPDATED_SIGNATURE_EMAIL";
+    public static final String DUPLICATE_LEAD = "DUPLICATE_LEAD";
+    public static final String DUPLICATE_LEAD_RECEIVED = "Duplicate Lead Details";
+    public static final String REFINANCE_LEAD_EMAIL_TO_LO = "REFINANCE_LEAD_LO_EMAIL";
+    public static final String REFINANCE_LEAD_EMAIL = "REFINANCE_LEAD_EMAIL";
+    public static final String LEADS_REPORT_EMAIL = "LEADS_REPORT_EMAIL";
+
+}
